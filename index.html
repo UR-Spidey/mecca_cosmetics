@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mac White Products</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .product {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 16px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.2s ease;
+        }
+
+        .product:hover {
+            transform: scale(1.03);
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            margin-bottom: 15px;
+        }
+
+        .product h2 {
+            margin-bottom: 10px;
+            color: #444;
+        }
+
+        .product p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Our Products</h1>
+
+    <div class="product-grid">
+        <div class="product">
+            <img src="WhatsApp_Image_2025-01-29_at_19.16.44_b7b96edd-removebg-preview.png" alt="Face Cream">
+            <h2>Face Cream</h2>
+            <p>Advanced Whitening with Niacinamide, Glutathione & Vitamin E.</p>
+        </div>
+
+        <div class="product">
+            <img src="WhatsApp_Image_2025-01-30_at_09.10.50_d851a230-removebg-preview.png" alt="Body Lotion">
+            <h2>Body Lotion</h2>
+            <p>Collagen, Glutathione & Cocoa Butter for glowing skin.</p>
+        </div>
+    </div>
+
+</body>
+</html>
